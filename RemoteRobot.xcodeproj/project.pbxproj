@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30040DA71F4D6E1000363447 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30040DA61F4D6E1000363447 /* main.m */; };
+		30040DAA1F4D6E1000363447 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30040DA91F4D6E1000363447 /* AppDelegate.m */; };
+		30040DB01F4D6E1000363447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30040DAE1F4D6E1000363447 /* Main.storyboard */; };
+		30040DB21F4D6E1000363447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30040DB11F4D6E1000363447 /* Assets.xcassets */; };
+		30040DB51F4D6E1000363447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30040DB31F4D6E1000363447 /* LaunchScreen.storyboard */; };
+		30D175DD1F4D6F73003A4D22 /* MoveTwinController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D175D71F4D6F73003A4D22 /* MoveTwinController.m */; };
+		30D175DE1F4D6F73003A4D22 /* MoveTwinStickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D175D81F4D6F73003A4D22 /* MoveTwinStickView.m */; };
+		30D175DF1F4D6F73003A4D22 /* MoveTwinAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D175DB1F4D6F73003A4D22 /* MoveTwinAreaView.m */; };
+		30DCEE571F57E63800529B8E /* StickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DCEE531F57E63800529B8E /* StickView.m */; };
+		30DCEE581F57E63800529B8E /* StickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DCEE551F57E63800529B8E /* StickViewController.m */; };
+		30DCEE5B1F57E68F00529B8E /* StickAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DCEE5A1F57E68F00529B8E /* StickAreaView.m */; };
+		6D39FD10BBAA8E4907606203 /* Pods_RemoteRobot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E470AE593B52F28AB6804A98 /* Pods_RemoteRobot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F04A2E5C95D83B8EDC387AE /* Pods-RemoteRobot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteRobot.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteRobot/Pods-RemoteRobot.release.xcconfig"; sourceTree = "<group>"; };
+		30040DA21F4D6E1000363447 /* RemoteRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30040DA61F4D6E1000363447 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30040DA81F4D6E1000363447 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30040DA91F4D6E1000363447 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30040DAF1F4D6E1000363447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30040DB11F4D6E1000363447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30040DB41F4D6E1000363447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30040DB61F4D6E1000363447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D175D71F4D6F73003A4D22 /* MoveTwinController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveTwinController.m; sourceTree = "<group>"; };
+		30D175D81F4D6F73003A4D22 /* MoveTwinStickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveTwinStickView.m; sourceTree = "<group>"; };
+		30D175D91F4D6F73003A4D22 /* MoveTwinAreaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveTwinAreaView.h; sourceTree = "<group>"; };
+		30D175DA1F4D6F73003A4D22 /* MoveTwinStickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveTwinStickView.h; sourceTree = "<group>"; };
+		30D175DB1F4D6F73003A4D22 /* MoveTwinAreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveTwinAreaView.m; sourceTree = "<group>"; };
+		30D175DC1F4D6F73003A4D22 /* MoveTwinController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveTwinController.h; sourceTree = "<group>"; };
+		30DCEE521F57E63800529B8E /* StickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickView.h; sourceTree = "<group>"; };
+		30DCEE531F57E63800529B8E /* StickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickView.m; sourceTree = "<group>"; };
+		30DCEE541F57E63800529B8E /* StickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickViewController.h; sourceTree = "<group>"; };
+		30DCEE551F57E63800529B8E /* StickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickViewController.m; sourceTree = "<group>"; };
+		30DCEE591F57E68F00529B8E /* StickAreaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickAreaView.h; sourceTree = "<group>"; };
+		30DCEE5A1F57E68F00529B8E /* StickAreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickAreaView.m; sourceTree = "<group>"; };
+		D95ACC089CB8163C9163EF84 /* Pods-RemoteRobot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteRobot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteRobot/Pods-RemoteRobot.debug.xcconfig"; sourceTree = "<group>"; };
+		E470AE593B52F28AB6804A98 /* Pods_RemoteRobot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RemoteRobot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30040D9F1F4D6E1000363447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D39FD10BBAA8E4907606203 /* Pods_RemoteRobot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30040D991F4D6E1000363447 = {
+			isa = PBXGroup;
+			children = (
+				30040DA41F4D6E1000363447 /* RemoteRobot */,
+				30040DA31F4D6E1000363447 /* Products */,
+				F077D23B4B7E390494054F2C /* Pods */,
+				D864006F8FC4C97F8033A2B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30040DA31F4D6E1000363447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30040DA21F4D6E1000363447 /* RemoteRobot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30040DA41F4D6E1000363447 /* RemoteRobot */ = {
+			isa = PBXGroup;
+			children = (
+				30DCEE4C1F57E5AD00529B8E /* Stick */,
+				30D175E01F4D6F7E003A4D22 /* MoveTwin */,
+				30040DA81F4D6E1000363447 /* AppDelegate.h */,
+				30040DA91F4D6E1000363447 /* AppDelegate.m */,
+				30040DAE1F4D6E1000363447 /* Main.storyboard */,
+				30040DB11F4D6E1000363447 /* Assets.xcassets */,
+				30040DB31F4D6E1000363447 /* LaunchScreen.storyboard */,
+				30040DB61F4D6E1000363447 /* Info.plist */,
+				30040DA51F4D6E1000363447 /* Supporting Files */,
+			);
+			path = RemoteRobot;
+			sourceTree = "<group>";
+		};
+		30040DA51F4D6E1000363447 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30040DA61F4D6E1000363447 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30D175E01F4D6F7E003A4D22 /* MoveTwin */ = {
+			isa = PBXGroup;
+			children = (
+				30D175DC1F4D6F73003A4D22 /* MoveTwinController.h */,
+				30D175D71F4D6F73003A4D22 /* MoveTwinController.m */,
+				30D175D91F4D6F73003A4D22 /* MoveTwinAreaView.h */,
+				30D175DB1F4D6F73003A4D22 /* MoveTwinAreaView.m */,
+				30D175DA1F4D6F73003A4D22 /* MoveTwinStickView.h */,
+				30D175D81F4D6F73003A4D22 /* MoveTwinStickView.m */,
+			);
+			name = MoveTwin;
+			sourceTree = "<group>";
+		};
+		30DCEE4C1F57E5AD00529B8E /* Stick */ = {
+			isa = PBXGroup;
+			children = (
+				30DCEE541F57E63800529B8E /* StickViewController.h */,
+				30DCEE551F57E63800529B8E /* StickViewController.m */,
+				30DCEE591F57E68F00529B8E /* StickAreaView.h */,
+				30DCEE5A1F57E68F00529B8E /* StickAreaView.m */,
+				30DCEE521F57E63800529B8E /* StickView.h */,
+				30DCEE531F57E63800529B8E /* StickView.m */,
+			);
+			name = Stick;
+			sourceTree = "<group>";
+		};
+		D864006F8FC4C97F8033A2B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E470AE593B52F28AB6804A98 /* Pods_RemoteRobot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F077D23B4B7E390494054F2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D95ACC089CB8163C9163EF84 /* Pods-RemoteRobot.debug.xcconfig */,
+				2F04A2E5C95D83B8EDC387AE /* Pods-RemoteRobot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30040DA11F4D6E1000363447 /* RemoteRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30040DB91F4D6E1000363447 /* Build configuration list for PBXNativeTarget "RemoteRobot" */;
+			buildPhases = (
+				4B31B2C7CB96D4607A824C3F /* [CP] Check Pods Manifest.lock */,
+				30040D9E1F4D6E1000363447 /* Sources */,
+				30040D9F1F4D6E1000363447 /* Frameworks */,
+				30040DA01F4D6E1000363447 /* Resources */,
+				BA96F2FD437377270111BFB2 /* [CP] Embed Pods Frameworks */,
+				F96CFA5B9B2011B083B80364 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteRobot;
+			productName = RemoteRobot;
+			productReference = 30040DA21F4D6E1000363447 /* RemoteRobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30040D9A1F4D6E1000363447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Roman Dobynda";
+				TargetAttributes = {
+					30040DA11F4D6E1000363447 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XVRKYD4VJG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 30040D9D1F4D6E1000363447 /* Build configuration list for PBXProject "RemoteRobot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30040D991F4D6E1000363447;
+			productRefGroup = 30040DA31F4D6E1000363447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30040DA11F4D6E1000363447 /* RemoteRobot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30040DA01F4D6E1000363447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30040DB51F4D6E1000363447 /* LaunchScreen.storyboard in Resources */,
+				30040DB21F4D6E1000363447 /* Assets.xcassets in Resources */,
+				30040DB01F4D6E1000363447 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B31B2C7CB96D4607A824C3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RemoteRobot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA96F2FD437377270111BFB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RemoteRobot/Pods-RemoteRobot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemoteRobot/Pods-RemoteRobot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96CFA5B9B2011B083B80364 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemoteRobot/Pods-RemoteRobot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30040D9E1F4D6E1000363447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D175DE1F4D6F73003A4D22 /* MoveTwinStickView.m in Sources */,
+				30D175DF1F4D6F73003A4D22 /* MoveTwinAreaView.m in Sources */,
+				30040DAA1F4D6E1000363447 /* AppDelegate.m in Sources */,
+				30040DA71F4D6E1000363447 /* main.m in Sources */,
+				30DCEE5B1F57E68F00529B8E /* StickAreaView.m in Sources */,
+				30D175DD1F4D6F73003A4D22 /* MoveTwinController.m in Sources */,
+				30DCEE581F57E63800529B8E /* StickViewController.m in Sources */,
+				30DCEE571F57E63800529B8E /* StickView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30040DAE1F4D6E1000363447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30040DAF1F4D6E1000363447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30040DB31F4D6E1000363447 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30040DB41F4D6E1000363447 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30040DB71F4D6E1000363447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30040DB81F4D6E1000363447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30040DBA1F4D6E1000363447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D95ACC089CB8163C9163EF84 /* Pods-RemoteRobot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XVRKYD4VJG;
+				INFOPLIST_FILE = RemoteRobot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.romandobynda.RemoteRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30040DBB1F4D6E1000363447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F04A2E5C95D83B8EDC387AE /* Pods-RemoteRobot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XVRKYD4VJG;
+				INFOPLIST_FILE = RemoteRobot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.romandobynda.RemoteRobot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30040D9D1F4D6E1000363447 /* Build configuration list for PBXProject "RemoteRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30040DB71F4D6E1000363447 /* Debug */,
+				30040DB81F4D6E1000363447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30040DB91F4D6E1000363447 /* Build configuration list for PBXNativeTarget "RemoteRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30040DBA1F4D6E1000363447 /* Debug */,
+				30040DBB1F4D6E1000363447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30040D9A1F4D6E1000363447 /* Project object */;
+}
